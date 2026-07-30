@@ -1,5 +1,5 @@
 #include <LiquidCrystal.h>                // include library of LCD
-LiquidCrystallcd(13, 12, 11, 10, 9, 8);   // attach LCD pin RS,E,D4,D5,D6,D7 to the given pins
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8);   // attach LCD pin RS,E,D4,D5,D6,D7 to the given pins
 int PIR_SENSOR_LOW = 5;                   // assign pin 5 as PIR_SENSOR_LOW
 int RED_LED = 7;                          // assign pin 7 as RED_LED
 int BLUE_LED = 6;                         // // assign pin 6 as BLUE_LED

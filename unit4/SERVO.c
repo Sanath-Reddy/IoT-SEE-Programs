@@ -1,13 +1,11 @@
 #include <LiquidCrystal.h> // include library of LCD
-LiquidCrystallcd(13, 12, 11, 10, 9, 8); // attach LCD pin RS, E, D4, D5, D6, D7
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // attach LCD pin RS, E, D4, D5, D6, D7
 // to the given pins
 
 Servo myservo; // create servo object to control a servo
 int POT_PIN = A0; // analog pin used to connect the potentiometer
 int POT_PIN_ADC_LEVEL; // variable to read the value from the
 // analog pin
-Raspberry Pi and Arduino
-113
 
 void setup()
 {

@@ -1,8 +1,8 @@
 #include <LiquidCrystal.h> // include library of LCD
-LiquidCrystallcd(13, 12, 11, 10, 9,
+LiquidCrystal lcd(13, 12, 11, 10, 9,
                  8);    // attach LCD pin RS,E,D4,D5,D6,D7 to the given pins
-intLDR_sensor_Pin = A0; // select the input pin for the potentiometer
-intLDR_sensor_ADC_Value =
+int LDR_sensor_Pin = A0; // select the input pin for the potentiometer
+int LDR_sensor_ADC_Value =
     0;           // variable to store the value coming from the sensor
 int RED_LED = 7; // assign pin 7 to RED_LED
 void setup() {

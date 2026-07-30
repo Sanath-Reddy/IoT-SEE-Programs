@@ -1,5 +1,5 @@
 #include <LiquidCrystal.h> // include library of LCD
-LiquidCrystallcd(13, 12, 11, 10, 9, 8); // attach LCD pin RS, E, D4, D5, D6, D7 to the given pins
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // attach LCD pin RS, E, D4, D5, D6, D7 to the given pins
 
 int MPIN1 = 7;  // assign pin 7 as MPIN1
 int MPIN2 = 6;  // assign pin 6 as MPIN2
